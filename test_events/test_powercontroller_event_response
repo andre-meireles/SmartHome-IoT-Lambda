@@ -1,0 +1,19 @@
+{
+  "event":
+    "header": {
+      "namespace": "Alexa",
+      "name": "Response",
+      "messageId": "someMessageId",
+      "payloadVersion": "3",
+      "correlationToken": "someCorrelationToken"
+    },
+    "endpoint": {
+      "scope": {
+        "directedUserId": "some-Amazon-user-id",
+        "type": "DirectedUserId"
+      },
+      "endpointId": "DevConLight"
+    },
+    "payload": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "event": {
+    "header": {
+      "payloadVersion": "3",
+      "namespace": "Alexa.Discovery",
+      "name": "Discover.Response",
+      "messageId": "d790c2bf-01f7-43a6-bf51-c9df1833f6db"
+    },
+    "payload": {
+      "endpoints": [
+        {
+          "endpointId": "DevConLight",
+          "capabilities": [
+            {
+              "interface": "Alexa.PowerController",
+              "version": "3",
+              "type": "AlexaInterface",
+              "properties": {
+                "retrievable": "true",
+                "supported": [
+                  {
+                    "name": "powerState"
+                  }
+                ],
+                "proactivelyReported": "true"
+              }
+            }
+          ],
+          "cookie": {},
+          "manufacturerName": "Espressif Systems",
+          "friendlyName": "DevConLight",
+          "displayCategories": [
+            "LIGHT"
+          ],
+          "description": "Light that turns on/off"
+        }
+      ]
+    }
+  }
+}
